@@ -1,0 +1,53 @@
+.wrapper {
+  width: 1110px;
+  height: 260px;
+  margin-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  .season {
+    width: 540px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .up_text {
+      width: 99px;
+      height: 13px;
+      background: url('../../../assets/New\ Season.png') no-repeat center;
+    }
+
+    .down_text {
+      width: 245px;
+      height: 18px;
+      margin-top: 8px;
+      background: url('../../../assets/lookbook\ collection.png') no-repeat center;
+    }
+  }
+
+  .sale {
+    width: 540px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .sale_up_text {
+      width: 36px;
+      height: 13px;
+      background: url('../../../assets/Sale.png');
+    }
+
+    .get50 {
+      margin-top: 8px;
+      width: 193px;
+      height: 18px;
+      background: url('../../../assets/Get\ UP\ to\ 50%\ off.png') no-repeat center;
+    }
+  }
+}
