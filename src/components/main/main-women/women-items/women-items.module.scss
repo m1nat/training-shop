@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@700&family=Rajdhani:wght@300&family=Spartan:wght@500&display=swap");
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 378px;
+  margin-top: 10px;
+
+  .item__img {
+    position: relative;
+    width: 100%;
+    height: 318px;
+    cursor: pointer;
+  }
+
+  .item__title {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+    opacity: 0.6;
+    margin-top: 16px;
+  }
+
+  .price__raiting {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+
+    .price {
+      font-family: "Dancing Script", cursive;
+      font-family: "Kalam", cursive;
+      font-family: "Rajdhani", sans-serif;
+      font-family: "Spartan", sans-serif;
+      font-weight: bolder;
+      font-size: 15px;
+      line-height: 16px;
+      color: #121212;
+    }
+
+    .rating {
+      width: 70px;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+
+      .raiting__body {
+        position: relative;
+
+        &::before {
+          content: "★★★★★";
+          display: block;
+          color: #E5E5E5;
+        }
+
+        .raiting__active {
+          position: absolute;
+          width: 80%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+
+          &::before {
+            content: "★★★★★";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            color:#F0CC84;
+          }
+        }
+
+        .raiting__items {
+          display: flex;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+
+          .raiting__item {
+            flex: 0 0 20%;
+            height: 100%;
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}

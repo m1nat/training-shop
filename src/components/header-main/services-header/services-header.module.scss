@@ -1,0 +1,138 @@
+.wrapper {
+  width: 100%;
+  height: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: #F8F8F8 2px solid;
+
+  & div {
+    width: 345px;
+    height: 39px;
+  }
+
+  .shopping {
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .shopping__img {
+      width: 30px;
+      height: 23.33px;
+      background: url("../../../assets/car.png") no-repeat center;
+      background-size: contain;
+    }
+
+    .shopping__discriptions {
+      margin-left: 13px;
+
+      h5 {
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #121212;
+      }
+
+      p {
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        color: #121212;
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .return {
+    margin-left: 36.67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .return__img {
+      width: 26.67px;
+      height: 26.67px;
+      background: url("../../../assets/refresh.png") no-repeat center;
+      background-size: contain;
+    }
+
+    .return__discriptions {
+      margin-left: 14.67px;
+
+      h5 {
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #121212;
+      }
+
+      p {
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        color: #121212;
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .support {
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .support__img {
+      width: 30px;
+      height: 30px;
+      background: url("../../../assets/support.png") no-repeat center;
+      background-size: contain;
+    }
+    .support__discriptions {
+      margin-left: 13px;
+
+      h5 {
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #121212;
+      }
+
+      p {
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        color: #121212;
+        opacity: 0.9;
+      }
+    }
+  }
+}
